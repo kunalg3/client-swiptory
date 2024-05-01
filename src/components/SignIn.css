@@ -1,0 +1,148 @@
+/* .modal-content {
+  width: 624px;
+  height: 482px;
+  top: 199px;
+  left: 349px;
+  border-radius: 20px;
+} */
+
+#signInHeader {
+    text-align: center;
+    font-size: 25px;
+    padding: 20px;
+  }
+  .loginButton {
+    width: 129px;
+    margin: 50px auto;
+    margin-left: 40%;
+    border-radius: 20px;
+    width: 129px;
+    height: 45px;
+    background-color: #73abff;
+    cursor: pointer;
+  }
+  form {
+    display: grid;
+    grid-template-rows: auto auto;
+  }
+  .formInput-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    margin: 10px;
+  }
+  .input-label {
+    margin-top: 10px;
+    margin-right: 50px;
+  }
+  
+  input,
+  select,
+  textarea {
+    outline: 0;
+    border: 0;
+    font-size: 17px;
+  }
+  .text-area {
+    height: 65px;
+    width: 280px;
+    margin: 10px;
+    border-radius: 1px;
+    border: 2px solid #090808;
+    padding-left: 10px;
+  }
+  .input-box {
+    height: 35px;
+    width: 280px;
+    margin: 10px;
+    border-radius: 1px;
+    border: 2px solid #090808;
+    padding-left: 10px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .input-box img {
+    width: 30px;
+    height: 24px;
+  }
+  img {
+    cursor: pointer;
+  }
+  
+  /* .buttonsInput-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+  } */
+  
+  .previousButton,
+  .nextButton,
+  .postButton {
+    width: 129px;
+    margin: 20px auto;
+    border-radius: 20px;
+    border-color: rgb(253, 255, 255);
+    width: 129px;
+    height: 45px;
+    cursor: pointer;
+    color: white;
+  }
+  .previousButton {
+    background-color: #61d057;
+  }
+  .nextButton {
+    background-color: #73abff;
+  }
+  .postButton {
+    margin-left: 140px;
+    background-color: #ff7373;
+  }
+  /*  */
+
+  body.active-modal {
+    overflow-y: hidden;
+  }
+  
+  .btn-modal {
+    padding: 10px 20px;
+    display: block;
+    margin: 100px auto 0;
+    font-size: 18px;
+  }
+  
+  .modal,
+  .overlay {
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: fixed;
+  }
+  
+  .overlay {
+    background: rgba(49, 49, 49, 0.8);
+  }
+  .modal-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    line-height: 2;
+    background: #ffffff;
+    padding: 14px 28px;
+    border-radius: 20px;
+    width: 624px;
+    height: 482px;
+    margin: 20px;
+  }
+  
+  .close-modal {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    padding: 5px 7px;
+  }
