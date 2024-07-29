@@ -19,6 +19,6 @@ You can try out the live demo of the Swiptory app [here](https://client-swiptory
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/kunalg3/swiptory.git
+   git clone https://github.com/kunalg3/client-swiptory.git
    cd swiptory
 
