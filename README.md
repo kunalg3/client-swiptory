@@ -12,7 +12,7 @@ Swiptory is a full-stack web application that allows users to post stories publi
 
 ## Demo
 
-You can try out the live demo of the Swiptory app [here](https://swiptory.vercel.app/).
+You can try out the live demo of the Swiptory app [here](https://client-swiptory.vercel.app/).
 
 
 ## Installation
@@ -22,5 +22,3 @@ You can try out the live demo of the Swiptory app [here](https://swiptory.vercel
    git clone https://github.com/kunalg3/swiptory.git
    cd swiptory
 
-## Deployement
-https://client-swiptory.vercel.app
