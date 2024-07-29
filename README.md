@@ -21,3 +21,6 @@ You can try out the live demo of the Swiptory app [here](https://swiptory.vercel
    ```bash
    git clone https://github.com/kunalg3/swiptory.git
    cd swiptory
+
+## Deployement
+client-swiptory.vercel.app
