@@ -23,4 +23,4 @@ You can try out the live demo of the Swiptory app [here](https://swiptory.vercel
    cd swiptory
 
 ## Deployement
-client-swiptory.vercel.app
+https://client-swiptory.vercel.app
